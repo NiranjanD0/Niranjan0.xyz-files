@@ -68,7 +68,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap
+    flex-flow: column wrap;
+    min-height: 80vh;
 }
 
 .logo {
