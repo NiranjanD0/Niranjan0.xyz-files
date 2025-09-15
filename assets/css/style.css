@@ -69,7 +69,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    min-height: 80vh;
+    min-height: 88vh;
 }
 
 .logo {
