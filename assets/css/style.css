@@ -28,8 +28,10 @@ body {
 }
 
 .container{
-    max-width: 80vw;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -53,7 +55,6 @@ nav {
 }
 
 .menubar a {
-    display: inline-block;
     font-family: "Madimi One", sans-serif;
     font-style: normal;
     margin: 0 20px;
@@ -67,27 +68,20 @@ nav {
 .menubar a:hover {
     transform: scale(1.2);
     text-decoration: none;
-}
+} 
 
-.home {
-    /* border: 2px solid white; */
+main{
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
-    min-height: 88vh;
-}
-
-.logo {
-    height: 30vh;
-}
-
-.home-text {
-    align-self: center;
     color: var(--txt-color);
+}
+
+.home {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 200%;
     text-align: center;
+    font-size: 200%;
 }
 
 footer {
@@ -96,7 +90,7 @@ footer {
     padding: 10px 0;
 }
 
-footer p {
+.cprt{
     color: var(--txt-color);
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 50%;
