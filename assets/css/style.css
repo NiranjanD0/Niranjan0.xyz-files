@@ -24,6 +24,12 @@
 
 body {
     background: var(--color);
+    
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
 }
 
 header {
@@ -88,7 +94,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(128, 128, 128, 0.332);
     bottom: 0;
     width: 100%;
     padding: 10px 0;
@@ -97,6 +102,6 @@ footer {
 footer p {
     color: var(--txt-color);
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 80%;
+    font-size: 50%;
     margin: 20px 0;
 }
